@@ -5,6 +5,19 @@
   --accent-color-grey: #757575;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation-list,
+.about-list,
+.about-title-list,
+.command-list,
+.portfolio-list,
+.example-list {
+  list-style-type: none;
+}
+
 .address {
   font-style: normal;
 }
@@ -15,10 +28,9 @@
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color-black);
@@ -29,7 +41,6 @@
 }
 
 .navigation-list-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -46,7 +57,6 @@
 }
 
 .contact-info {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -56,7 +66,6 @@
 }
 
 .home-page {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -67,7 +76,6 @@
 }
 
 .button-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -80,7 +88,6 @@
 }
 
 .about-list-item-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -90,7 +97,6 @@
 }
 
 .about-list-item-text {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
@@ -100,7 +106,6 @@
 
 .about-title,
 .command-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
@@ -110,7 +115,6 @@
 }
 
 .command-list-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -120,7 +124,6 @@
 }
 
 .command-list-text {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.187;
@@ -130,7 +133,6 @@
 }
 
 .footer-list-link {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
@@ -139,8 +141,7 @@
   text-decoration: none;
 }
 
-.portfolio-list-link {
-  font-family: "Roboto", sans-serif;
+.portfolio-list-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -150,14 +151,13 @@
   text-decoration: none;
 }
 
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
   color: var(--accent-color-white);
   background: var(--accent-color-blue);
 }
 
 .example-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -166,7 +166,6 @@
 }
 
 .example-text {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
