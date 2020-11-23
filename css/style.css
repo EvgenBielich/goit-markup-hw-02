@@ -76,6 +76,7 @@ body {
 }
 
 .button-title {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -142,6 +143,7 @@ body {
 }
 
 .portfolio-list-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
